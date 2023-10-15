@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.header>h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+span{
+    color: yellow;
+    text-transform: uppercase;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header2>a{
+    text-decoration: none;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.mainsec1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 600px;
+}
+h1{
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 15px ;
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.btnsection{
+    display: flex;
+    column-gap: 20px;
+}
+.btnsection>input{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px 25px;
+    width: 400px;
+    border-radius: 50px;
+}
+.Subscribe{
+    background-color: yellow;
+    color:black;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.bg{
+    width: 600px;
+}
+.copyright{
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.copyright>a{
+    cursor: pointer;
+}
+.copyright>p{
+    position: relative;
+    top: 5px
+}
