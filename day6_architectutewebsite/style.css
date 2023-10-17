@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Barlow', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+.headerpages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 50px;
+}
+.headerpages>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.logoname>h3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+}
+.bold{
+    font-weight: bold;
+}
+.mainsection{
+    display: flex;
+    height: 100vh;
+}
+.maintextdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 450px;
+    background-color: white ;
+    margin-left: 150px ;
+    margin-top: 150px ;
+    opacity: 80%;
+}
+.maintextdiv>h1{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+.maintextdiv>p{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.bgimage{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    max-height: 720px;
+}
+.servicesection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    background: rgba(37, 77, 77, 20%);
+    padding: 30px;
+}
+.servicediv1>h2{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.service1>p{
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+.servicedivlarge{
+    display: flex;
+    column-gap: 50px;
+}
+.service1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+    width: 350px;
+}
+.service1>img{
+    max-width: 80px;
+}
+
+.aboutus{
+    display: flex;
+    padding: 20px;
+    column-gap: 150px;
+    margin-bottom: 50px;
+}
+.aboutimg>img{
+    width: 600px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.abouttextdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 50px;
+    width: 500px;
+}
+.abouttextdiv>h2{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+.abouttextdiv>.bigp{
+    font-size: 30px;
+    font-weight: 500px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+.abouttextdiv>.smallp{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+.projectsec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.projectdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 850px;
+
+}
+.pdiv{
+    display: flex;
+    column-gap: 50px;
+}
+.footer{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 40px;
+    background-color: #2E2F32;
+    color: white;
+    column-gap: 100px;
+}
+.footer1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.footer1>h2{
+font-family: 'Barlow', sans-serif;
+
+}
+.footer1>p{
+font-family: 'Inter', sans-serif;
+    
+}
+.socialdiv{
+    display: flex;column-gap: 30px;
+}
+.icon{
+    width: 20px;
+}
+/* font-family: 'Playfair Display', serif; */
+.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 15px;
+}
+.footer2>h2{
+    font-family: 'Barlow', sans-serif;
+    
+}
+.footer2>p{
+    font-family: 'Inter', sans-serif;        
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.footer3>p{
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;        
+
+}
+.footer3>h2{
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.footer4{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.footer4>h2{
+    font-family: 'Barlow', sans-serif;
+    
+}

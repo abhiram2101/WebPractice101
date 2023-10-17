@@ -1,0 +1,6 @@
+Hey!
+This is the Day 6 of front end series.
+Today I designed an Architecture Website with html and Vanila css.
+Template Link : https://www.figma.com/file/uNzuZsxXhosm0I2JG7st2N/Architecture-Single-Page-Web-Design-(Community)?type=design&node-id=0-1&mode=design&t=pSkKqcBXuDaLoNxm-0
+
+Template Credits to the respective owners.
