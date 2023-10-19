@@ -1,0 +1,6 @@
+Hello.
+Day 8 of Front end series.
+Today I developed a Retro Clothing website landing page.
+Template link : https://www.figma.com/file/JN9O5hNsZDNkGibrkca1dk/Clothing-Website-UI%2FUX-(Community)?type=design&mode=design&t=O38kDGyzUsXyIWp1-0
+
+Template credits to the respective owners.

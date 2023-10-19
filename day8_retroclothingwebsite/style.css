@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #C2A385;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+}
+.sitepages{
+    display: flex;
+    column-gap: 50px;
+}
+.sitebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.sitepages>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-transform: capitalize;
+}
+.loginbtn{
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: #C2A385;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: regular;
+}
+main{
+
+    display: flex;
+    column-gap: 50px;
+    overflow-y: hidden;
+    margin-bottom: 0;
+}
+
+.maintxt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 850px;
+    padding-left: 70px ;
+}
+.maintxt>h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.maintxt>.bigp{
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+span{
+    color: #002866;
+}
+.discoverbtn{
+    text-transform: uppercase;
+    font-size: 40px;
+    background-color: #6F4E37;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 25px;
+}
+.maintxt>p{
+    font-size: 20px;
+}
+.person{
+    position:absolute;
+    width:350px ;
+    left: 1100px;
+    bottom: 0;
+    
+
+}
+.mainbg{
+    position: absolute;
+    background-color: #6F4E37;
+    border-radius: 0px 50px;
+    z-index: -1;
+    height: 500px;
+    width: 350px;
+    left: 1100px;
+    bottom: 0;
+}
