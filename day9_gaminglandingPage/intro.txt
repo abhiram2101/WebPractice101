@@ -1,0 +1,8 @@
+Hello,
+Day 9 of Front end practice series.
+Today I developed a Gaming landing page.
+
+Template links : https://www.figma.com/file/yvakNRsVO9vmi6gBOWbPKF/Witcher--Landing-(Community)?type=design&node-id=0-1&mode=design&t=aLQ9AkCo5sNhrP9x-0
+
+
+Template credits to the respective owners.

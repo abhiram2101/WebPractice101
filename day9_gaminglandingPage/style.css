@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Libre+Franklin&display=swap');
+
+/* font-family: 'Krona One', sans-serif;
+font-family: 'Libre Franklin', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+    scroll-behavior: smooth;
+    border-radius: 80px;
+    
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+
+   
+::-webkit-scrollbar-thumb {
+    background-color: #7D7373;
+    background: #FF3434;
+    height: 8px;
+  }
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    background-color: #111111;
+
+}
+.menuicon{
+    width: 50px;
+    cursor: pointer;
+}
+.logoname{
+    color: #989898;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Krona One', sans-serif;   
+}
+span{
+    color: #FF3434;
+}
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 25px 50px;
+    background-color: #111111;
+
+}
+.smallp{
+    color:white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    align-self: flex-start;
+    border-bottom: 4px solid #FF3434;
+    border-width: 6px;
+    padding-bottom: 10px;
+}
+
+.mainimgdiv{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+}
+
+.mainhero1{
+    position: absolute;
+    width: 550px;
+    top: 100px;
+    left: 80px;
+    background-color: #FF3434;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}  
+
+.maintxtdiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    row-gap: 20px;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+.maintxtdiv>h2{
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 48px;
+}
+.maintxtdiv>.bigp{
+    color: #7D7373;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 24px;
+}
+.bg-txt{
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 250px;
+    width: 1000px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #111111;
+    padding: 20px;
+    column-gap: 500px;
+}
+.search-input{
+    background-color: #716f6f;
+    padding: 10px;
+    border-radius: 21px;
+    width: 300px;
+}
+.search-icon{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.socialdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.socialdiv>img{
+    width: 20px;
+}
