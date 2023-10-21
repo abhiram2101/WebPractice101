@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Menu</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="" class="logo"> Logo</a>
+            </div>
+            <img src="/day10_responsiveMenu/assets/ci_menu-alt-02.png" alt="" class="menu-icon" id ="menu-icon">
+
+            <div class="pages ">
+                <a href="">about</a>
+                <a href="">services</a>
+                <a href="">contact</a>
+                <a href="">portfolio</a>
+            </div>
+            <img src="/day10_responsiveMenu/assets/xmark-solid.svg" alt="" class="close-icon" id="close-icon">
+
+        </div>
+    </header>
+
+    <script>
+       
+        const menubtn = document.querySelector('.menu-icon');
+        const closebtn = document.querySelector('.close-icon');
+        const pagesbox = document.querySelector('.pages');
+
+        menubtn.addEventListener('click', () => {
+            menubtn.style.display = "none";
+            closebtn.style.display = "block";
+            pagesbox.classList.add('mobile-view-active');
+        });
+
+        closebtn.addEventListener('click', () => {
+            closebtn.style.display = "none";
+            menubtn.style.display = "block";
+            pagesbox.classList.remove('mobile-view-active');
+        });
+
+
+    </script>
+</body>
+</html>
