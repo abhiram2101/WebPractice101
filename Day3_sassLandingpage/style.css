@@ -277,8 +277,9 @@ span{
 }
 .footer4{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .langsec{
     display: flex;
@@ -305,6 +306,20 @@ span{
 .copyright{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    margin-left: 820px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(39, 38, 38);
+    border-radius: 10px;
+   
+}
+::-webkit-scrollbar-thumb{
+    background: #FF3434;
+    border-radius: 10px;
+    
 }
