@@ -1,0 +1,2 @@
+hey day 11 of front end pracitce series.
+Today a simple cusotm scroll bar using 3 simple steps.
