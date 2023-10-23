@@ -1,0 +1,6 @@
+Hey!
+Day 12 of front end practice series.
+Today I developed a gaming character landing page using html , css.
+Template Link : https://www.figma.com/file/za12Z2qC4vtgvDu4ShxagQ/Gaming-Landing-Page-Freebie-(Community)?type=design&node-id=0-1&mode=design&t=frp3wtkPNcrAlHoW-0
+
+Template credits to the respective owners.
