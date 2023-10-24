@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+} 
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 20px;
+}
+span{
+    color: #4CAF4F;
+}
+p{
+    font-size: 16px;
+}
+.psmall{
+    font-size: 8px;
+}
+.msmall{
+    font-size: 14px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 105px;
+    
+}
+.pagesdiv{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #18191F;
+    column-gap: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.pagesdiv>a{
+text-decoration: none;
+}
+.pagesdiv>a:last-child{
+    text-transform: uppercase;
+}
+.btndiv{
+    display: flex;
+    column-gap: 14px;
+    
+}
+.primary-btn{
+    color: #4CAF4F;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+}
+.secondary-btn{
+    background-color: #4CAF4F;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;   
+    border-radius: 6px; 
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+}
+.secondary-btn2{
+    background-color: #4CAF4F;
+    color: white;
+    font-size: 14px;
+    padding: 14px;   
+    border-radius: 4px; 
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+}
+.article-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 104px;
+    padding: 96px 144px;
+}
+.dot{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 40px;
+}
+.article-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: start  ;
+    row-gap: 16px;
+}
+
+.client-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    padding: 0px 144px;
+}
+.client-img{
+    display: flex;
+    align-items: center;
+    column-gap: 136px;
+    padding: 25px 0px;
+    margin-bottom: 40px;
+}
+.service-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    margin-bottom: 40px;
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 8px;
+    
+}
+.major-service{
+    display: flex;
+    align-items: center;
+    padding: 0px 144px;
+    text-align: center;
+    column-gap: 130px;
+}
+.service1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 24px 32px;
+    row-gap: 8px;
+}
+.service-icon{
+    width: 48px;
+}
+.content-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 144px;
+    column-gap: 49px;
+    margin-bottom: 48px;
+   
+}
+.content-section-2>img{
+    width: 400px;
+}
+.content-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    row-gap: 16px;
+}
+.audience-seciton{
+    display: flex;
+    column-gap: 72px;
+    align-items: center;
+    justify-content: center;
+    padding: 84px 144px;
+    margin-bottom: 48px;
+}
+.audience-txt{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    align-items: end;
+
+}
+.audience-rate{
+    display: grid;
+    /* place-content: column; */
+   
+    grid-template-rows: repeat(2, 60px);
+    grid-template-columns: repeat(2, 250px);
+    gap: 30px 40px;
+}
+.audience1{
+    display: flex;
+    column-gap: 16px;
+}
+.bigp{
+    font-size: 28px;
+    font-weight: bold;
+}
+.content-section-3{
+    display: flex;
+    align-items: center;
+    padding: 0px 144px;
+    column-gap: 50px;
+    margin-bottom: 48px;
+}
+.section3-img{
+    display: flex;
+    align-items: center;
+    width: 450px;
+}
+.section3-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 16px;
+}
+.content-section-4{
+    display: flex;
+    align-items: center;
+    padding: 32px 144px;
+    column-gap: 78px;
+    margin-bottom: 48px;
+}
+.section4-txt{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.section4-icons{
+    display: flex;
+    column-gap: 42px;
+}
+.mini-img-div{
+    display: flex;
+    column-gap: 41PX  ;
+}
+.mini-img-div2{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.content-section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0PX 165px;
+    row-gap: 8px;
+    margin-bottom: 16px;
+}
+.blog-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 144px;
+    margin-bottom: 40px;
+}
+.blogsection1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 150px;
+    text-align: center;
+}
+.readmore{
+    display: flex;
+    column-gap: 8px;
+}
+.mini-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 276px;
+    row-gap: 32px;
+}
+.major-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #263238;
+    color: white;
+    padding: 64px 165px;
+    
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 20px;
+}
+.mini-icons-div{
+    display: flex;
+    column-gap: 16px;
+    z-index: 999;
+}
+.logo1{
+    z-index: 100000;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 18px;
+    text-transform: capitalize;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 18px;
+    text-transform: capitalize;
+}
+.footer4{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.email-div{
+    display: flex;  
+}
+input{
+    background-color: #717171;
+    padding-top:9px ;
+    padding-bottom: 11px ;
+    padding-left:12px ;
+    padding-right: 117px ;
+    border-radius:8px ;
+}
+input::placeholder{
+    color: white;
+    font-size: 14px;
+}
+.send-icon{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    right: -260px;
+    bottom: 54px;
+    width:19px
+}

@@ -1,0 +1,6 @@
+Hey!
+Day 13 of front end practice series.
+Today I developed an Agency landing page using html , css.
+Template Link : https://www.figma.com/file/lACo9uLA94TeAoq93jjjNf/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design-(Community)?type=design&node-id=1-2&mode=design&t=zuWxPeTT2qgdsgKQ-0
+
+Template credits to the respective owners.
