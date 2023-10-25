@@ -1,4 +1,4 @@
 hey!
-Day 13 of front end practice series.
+Day 14 of front end practice series.
 Today I developed a dynamic news blog using Html , css, Java Script.
 Also used "News API" for fetching news.
