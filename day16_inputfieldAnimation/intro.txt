@@ -1,0 +1,3 @@
+Hey!
+Day 16 of front End Practice series
+Made a simple input Animation Effect in Css.
