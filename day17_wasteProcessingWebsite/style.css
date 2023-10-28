@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 3em;
+    line-height: 1.05em;
+    font-weight: 600px;
+}
+h2{
+    font-size: 2.25em;
+    line-height: 1.25em;
+}
+h3{
+    font-size: 1.75em;
+    line-height: 1.25em;
+    font-weight: 0px;
+}
+h4{
+    font-size: 1.125em;
+}
+p{
+    font-size: 16px;
+}
+.largep{
+    font-size: 36px;
+    font-weight: bold;
+}
+.mediump{
+    font-size: 28px;
+}
+
+.smallp{
+    font-size: 16px;
+}
+
+
+/* Header section */
+header{
+    background-color: #016A70;
+    padding: 51px 158px;
+    
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.header-logo{
+    width: 105px;
+}
+.header-pages{
+    display: flex;
+    column-gap: 52px;
+}
+.header-pages>a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.header-pages>a :hover{
+    cursor: pointer;
+}
+.header-pages>a :active{
+    color: #016A70;
+    font-weight: 600px;
+}
+.btn-small{
+    background-color: #016A70;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+.btn-small-stroke{
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 8px 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+/* main section */
+
+main{
+    background-color: #016A70;
+    padding: 94px 235px;
+}
+.main-section{
+    display: flex;
+    color: white;
+    column-gap: 92px ;
+}
+.main-text{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 10px;
+}
+.main-p{
+    margin-bottom: 30px;
+}
+.component-3{
+    width: 400px;
+    padding: none;
+}
+
+/* client section */
+.client-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 74px 348px;
+    column-gap: 120px;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.client>p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* service section */
+
+.service-secton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+    padding: 150px 314px;
+}
+.service-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.service-mini{
+    display: flex;
+    column-gap: 50px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 335px;
+    box-shadow: 0px 3px 4px #9ea6ae;
+    padding: 44px 43px 44px 42px;
+    border-radius: 20px;
+}
+
+
+/* Product section */
+
+.Product-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+    text-align: center;
+    margin-bottom: 150px;
+    /* padding: 117px 167px; */
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    row-gap: 10px;
+    width: 333px;
+    background-color: #016A70;
+    border-radius: 20px;
+    color: white;
+}
+.product-p{
+    padding-left: 20px;
+}
+.product-p1{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.product-img{
+    display: grid;
+    grid-template-columns: repeat(3, 333px);
+    grid-template-rows: repeat(2, 432px);
+    gap: 50px;
+}
+
+
+
+
+/* companies section */
+.companies-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 85px;
+    margin-bottom: 100px;
+}
+.companies-img{
+    width: 200px;
+}
+
+
+
+
+
+
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("/day17_wasteProcessingWebsite/assets/footer.png");
+    background-repeat: no-repeat;
+    padding-top: 300px ;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+}
+.footer-img{
+    width: 120px;
+    z-index: 500;
+    background-color: white;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 515px;
+    row-gap: 31px;
+    color: white;
+}
+.footer-2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 15px;
+}
+.footer-3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 15px;
+}
+.footer-4{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 15px;
+}

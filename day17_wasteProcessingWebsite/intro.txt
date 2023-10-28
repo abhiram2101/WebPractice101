@@ -1,0 +1,7 @@
+Hey!
+Day 17 of front End Practice series
+Made a waste landing website with different pages.
+
+Template Link : https://www.figma.com/file/IgpMmoMaWsvoJsG0XjG53w/WASTE-PROCESSING-BY-BEEMA---IL-(Community)?type=design&node-id=0-2354&mode=design&t=7aXQyTgL3lD8Vwvw-0
+
+Template credits to the respective owners.
