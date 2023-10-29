@@ -68,11 +68,12 @@ header{
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    text-transform: capitalize;
-    
+    text-transform: capitalize;  
 }
-.header-pages>a :hover{
+.header-pages>a:hover{
     cursor: pointer;
+    border-bottom: 3px solid #016A70;
+    transition:all 100ms ease;
 }
 .header-pages>a :active{
     color: #016A70;
@@ -89,6 +90,7 @@ header{
     text-transform: capitalize;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 .btn-small-stroke{
     color: white;
@@ -194,7 +196,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: start;
-    
+    cursor: pointer;
     row-gap: 10px;
     width: 333px;
     background-color: #016A70;
@@ -215,6 +217,52 @@ main{
     gap: 50px;
 }
 
+/* testimonail section */
+
+.Testimonial-section{
+    display: flex;
+    column-gap: 200px;
+    padding: 160px 198px;
+    margin-bottom: 150px;
+}
+
+.Testimonial-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    opacity: 50%;
+}
+
+.Testimonial-3{
+    position: absolute;
+    left: -80px;
+    top: 2850px;
+}
+.Testimonial-4{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 35px;
+    row-gap: 25px;
+    width: 500px;
+    right: 330px;
+    background-color: white;
+    box-shadow: 0px 3px 4px #9ea6ae;
+    border-radius: 10px;
+}
+.Testimonial-5{
+    display: flex;
+    column-gap: 10px;
+    position: absolute;
+    right: 500px;
+    top: 3350px;
+    z-index: 200;
+}
+
+
+
+
+
 
 
 
@@ -230,11 +278,36 @@ main{
     width: 200px;
 }
 
+/* map section */
+.map-section{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    column-gap: 111px;
+    margin-bottom: 150px;
+}
+
+.map-img{
+    width: 400px;
+}
+
+.map-txt{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 760px;
+}
+.map-txt>input{
+    padding: 15px;
+    line-height: 20px;
+    border-radius: 8px ;
+}
 
 
 
 
 
+/* footer section */
 
 .footer-section{
     display: flex;
@@ -246,6 +319,7 @@ main{
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 70px;
+    cursor: pointer;
 }
 .footer-img{
     width: 120px;
@@ -256,7 +330,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 515px;
+    width: 400px;
     row-gap: 31px;
     color: white;
 }
@@ -277,4 +351,32 @@ main{
     flex-direction: column;
     color: white;
     row-gap: 15px;
+}
+.footer-5{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: white;
+}
+.playstore-1{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    background-color: #016A70;
+    border-radius: 17px;
+    padding: 8px 9px 9px 17px;
+    width: 200px;
+    
+}
+.playstore-1>img{
+    width: 20px;
+    height: 20px;
+}
+.mini-footer{
+    display: flex;
+    gap: 0 7px;
+}
+.social-div{
+    display: flex;
+    gap: 0px 20px;
 }

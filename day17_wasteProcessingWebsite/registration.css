@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Register-btn{
+    background-color: #016A70;
+    font-size: 20px;
+    padding: 11px 83px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.form-p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.component-1{
+    position: absolute;
+    left: 0;
+    bottom: -270px;
+    width:620px;
+}
+.component-1-1{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width:500px;
+}
+.header-logo1{
+    position: absolute;
+    width: 105px;
+    top: 50px;
+    left: 50px;
+}
+.registration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-left: 500px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    row-gap: 20px;
+}
+.registration-form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: stretch;
+    row-gap: 24px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #9ea6ae;
+    padding: 55px 57px 54px 56px;
+}
+.names{
+    display: flex;
+    gap: 0 30px;
+}
+.first-name{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px 0px;
+}
+.first-name>input{
+    padding-block:14px;
+    padding-left: 17px ;
+    padding-right:68px ;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+}
+.last-name{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px 0px;
+}
+.last-name>input{
+    padding-block:14px;
+    padding-left: 17px ;
+    padding-right:68px ;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+}
+.email-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px 0px;
+}
+.email-div>input{
+    padding-block:14px;
+    padding-left: 17px ;
+    padding-right:68px ;
+    width: 630px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+}
+.password-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px 0px;
+}
+.password-div>input{
+    padding-block:14px;
+    padding-left: 17px ;
+    padding-right:68px ;
+    width: 630px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+}
+.re-enter-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px 0px;
+}
+.re-enter-div>input{
+    padding-block:14px;
+    padding-left: 17px ;
+    padding-right:68px ;
+    width: 630px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+}
+.checkbox{
+    display: flex;
+    gap: 0px 15px;
+}
+.checkbox>input{
+    width: 25px;
+    cursor: pointer;
+}
+.checkbox1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 15px;
+}
+.checkbox-1>input{
+    width: 25px;
+    cursor: pointer;
+}
+.checkbox-2{
+    display: flex;
+    padding-left: 150px;
+}
+    .btn-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    align-items: center;
+    padding-left: 30%;
+}
+.social-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13%;
+    gap: 0px 25px;
+}
+.google-div{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    padding: 10px;
+    gap: 0PX 14PX;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.facebook-div{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    padding: 10px;
+    gap: 0PX 14PX;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+
+
+.sign-in>p>span>a{
+    color: #016A70;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
