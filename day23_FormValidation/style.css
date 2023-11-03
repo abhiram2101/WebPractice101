@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* styling for registration page */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.register-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px ;
+    background-color:white  ;
+    color: rgb(0, 0, 0);
+    padding: 25px 20px;
+    width: 500px;
+    height: 450px;
+    border-radius: 9px;
+    box-shadow: 2px 5px 5px rgb(215, 215, 235);
+}
+
+.registeration-h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 20px;
+    align-items: end;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 68px;
+    align-items: end;
+}
+.password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 25px;
+    align-items: end;
+}
+div>label{
+    font-size: 21px;
+    text-transform: capitalize;
+}
+div>input{
+    line-height: 1.0rem;
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.Register-btn{
+    background-color: rgb(104, 88, 88);
+    color: white;
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: none;
+    align-self: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.register-span{
+    padding: 0px 5px;
+}
+.register-span:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+} 
+
+
+
+
+/* styling for login page */
+
+
+
+
+.login-page{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px ;
+    background-color:white  ;
+    color: rgb(0, 0, 0);
+    padding: 25px 20px;
+    width: 500px;
+    height: 450px;
+    border-radius: 9px;
+    box-shadow: 2px 5px 5px rgb(215, 215, 235);
+}
+.login-h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 68px;
+    align-items: end;
+}
+.password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 25px;
+    align-items: end;
+}
+div>label{
+    font-size: 21px;
+    text-transform: capitalize;
+}
+div>input{
+    /* line-height: 0.5rem;  */
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.login-btn{
+    background-color: rgb(104, 88, 88);
+    color: white;
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: none;
+    align-self: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.login-span:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+}
+
+

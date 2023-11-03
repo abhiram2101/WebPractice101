@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Form Validation</title>
+</head>
+<body>
+    <main>
+        <div class="register-page" id="register-page" >
+            <h2 class="registeration-h1">registeration page</h2>
+                <form action="" id="regisForm" name="registration-form" onsubmit="return validateForm()" method="post" autocomplete="off">
+                    <div class="register-container">
+                        <div class="names">
+                            <label for="fullName">full name</label>
+                            <input type="text" id="fullName" autocomplete="off"  class="fullName" >
+                        </div>
+                        
+                        <div class="email">
+                            <label for="Email">Email</label>
+                            <input type="email" id="Email" autocomplete="off"  class="Email">
+                        </div>
+                        <div class="password">
+                            <label for="password">password</label>
+                            <input type="text" id="password" autocomplete="off"  class="password">
+                        </div>
+                        <input type="submit" value="Register" class="Register-btn">
+                        <p class="login-p">Already a User? <span class="login-span" id="login-span-id">Login</span></p>
+                    </div>
+                </form>
+                <div class="error"></div>
+
+        </div>
+        <div class="login-page" id="login-page" autocomplete="off">
+            <h2 class="login-h1">Login page</h2>
+            <form action="google.com" id="loginForm" onsubmit="return validateLogin()" method="post" autocomplete="off" >
+                <div class="login-container">
+                    <div class="email">
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email" autocomplete="off" required placeholder="Enter your email" class="Email">
+                    </div>
+                    <div class="password">
+                        <label for="password">password</label>
+                        <input type="text" id="password" autocomplete="off" required placeholder="password" class="password">
+                    </div>
+                    <input type="submit" value="Login" class="login-btn">
+                    <p class="login-p">New User? <span class="register-span" id="register-span-id">Register</span></p>
+                </div>
+            </form>
+        </div>
+    </main>
+
+<script>
+   const showloginPage = document.querySelector(".login-page");
+   const showRegisterPage = document.querySelector(".register-page")
+// code for showing register page
+    const loginbtn = document.getElementById("login-span-id").addEventListener("click",function(){
+        console.log(" login clicked");
+        showloginPage.style.display="flex";
+        showRegisterPage.style.display="none";
+    });
+
+// code for login page
+    const registerBtn = document.getElementById("register-span-id").addEventListener("click",function(){
+        console.log(" register clicked");
+        showRegisterPage.style.display="flex";
+        showloginPage.style.display="none";
+        
+    });
+
+//     var Fullname = document.getElementById("fullName");
+//     var password = document.getElementById("password");
+//     const regisForm = document.getElementById("regisForm");
+//     var email = document.getElementById("Email");
+//     function validateForm(){
+//         var Fullname = document.forms['registration-form']["fullName"].value;
+//         console.log(Fullname);
+//     }
+// var Fullname = document.getElementById("fullName");
+// const email = document.getElementById('Email');
+// const password = document.getElementById('password');
+
+
+// regisForm.addEventListener('submit', e => {
+//     e.preventDefault();
+
+//     validateInputs();
+// });
+
+// const setError = (element, message) => {
+//     const inputControl = element.parentElement;
+//     const errorDisplay = inputControl.querySelector('.error');
+
+//     errorDisplay.innerText = message;
+//     inputControl.classList.add('error');
+//     inputControl.classList.remove('success')
+// }
+
+// const setSuccess = element => {
+//     const inputControl = element.parentElement;
+//     const errorDisplay = inputControl.querySelector('.error');
+
+//     errorDisplay.innerText = '';
+//     inputControl.classList.add('success');
+//     inputControl.classList.remove('error');
+// };
+
+// const isValidEmail = email => {
+//     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+//     return re.test(String(email).toLowerCase());
+// }
+
+// const validateInputs = () => {
+//     const FullnameValue = Fullname.value.trim();
+//     const emailValue = email.value.trim();
+//     const passwordValue = password.value.trim();
+
+//     if(FullnameValue === '') {
+//         setError(Fullname, 'Fullname is required');
+//     } else {
+//         setSuccess(Fullname);
+//     }
+
+//     if(emailValue === '') {
+//         setError(email, 'Email is required');
+//     } else if (!isValidEmail(emailValue)) {
+//         setError(email, 'Provide a valid email address');
+//     } else {
+//         setSuccess(email);
+//     }
+
+//     if(passwordValue === '') {
+//         setError(password, 'Password is required');
+//     } else if (passwordValue.length < 8 ) {
+//         setError(password, 'Password must be at least 8 character.')
+//     } else {
+//         setSuccess(password);
+//     }
+// };
+
+// function validateLogin(email,password){
+//     var inputEmail = document.getElementById("Email") 
+//     var inputpassword = document.getElementById("password") 
+//     const email = document.getElementById('Email');
+//     const password = document.getElementById('password');
+//     if (inputEmail === emailValue){
+//         alert("login success");
+//     }
+//     else{
+//         alert("Invalid credentials");
+//     }
+// }
+
+</script>
+
+</body>
+</html>
