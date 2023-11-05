@@ -14,25 +14,15 @@
     justify-content: space-evenly;
     background-color: white;
     height: 70px;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: -10px;
+    z-index: 1000;
 }
 
 
 
-.sidebar{
-    display: flex;
-    background-color: blue;
-}
-.mainContent{
-    display: flex;
-    background-color: black;
-}
-.sidebar2{
-    display: flex;
-    background-color: violet;
-}
+
 .img-div{
     display: flex;
     align-items: center;
@@ -119,21 +109,25 @@
 }
 .main{
     display: flex;
-    gap: 500px 80px;
+    gap: 0px 30px;
+    
 }
 /* sidebar styles */
+
+
 .sidebar{
     display: flex;
     flex-direction: column;
-    padding: 15px 25px 15px 130px;
-    row-gap: 5px;
+    padding: 0px 25px 15px 100px;
+    gap: 80px;
     align-items: start;
-    justify-content: center;
     background-color: white;
-    position: relative;
-    width:300px;
+    position: sticky    ;
+    width:400px;
+    height: 90vh;
+    top: 60px ;
     z-index: 100;
-    top: 50px;
+    margin-bottom: none;
 }
 a{
    text-decoration: none;
@@ -144,11 +138,19 @@ a{
    padding: none;
    margin: none;
 }
+.major{
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0px;
+    align-items: start;
+    justify-content: center;
+}
 .menu-div{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px 35px;
+    gap: 0px 15px;
 }
 .menu-div:hover{
     background-color: rgba(222, 222, 222, 0.8);
@@ -161,11 +163,6 @@ a{
 }
 
 
-
-
-
-
-
 .post-btn{
     background-color: #1D9BF0;
     border-radius: 50px;
@@ -174,4 +171,244 @@ a{
     color: white;
     border: none;
     font-weight: bold;
+    margin-top: 10px;
+}
+.menu-icons{
+    width: 20px;
+}
+
+.own-details{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.own-details::after{
+    content: '...';
+    position: relative;
+    left: 10px;
+    top: -10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: black;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.card-caption{
+    padding-left: 10px;
+}
+.post-icons{
+    width: 18px;
+}
+.card-share{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+
+/* main content styles */
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: whit;
+    width: 600px;
+    position: relative;
+    color: white;
+}
+
+.post-container{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10px;
+    gap: 25px;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px 25px;
+    color: black;
+    
+}
+.card-thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 400px;
+    height: 350px;
+    background-color:rgba(222, 222, 222, 0.8);  
+    border-radius: 5px;
+
+}
+.card-header{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+    padding: 10px;
+
+}
+.post-text{
+    display: flex; 
+    gap: 15px;
+    letter-spacing: 0.25px;
+}
+.post-time{
+    display: flex;
+    align-items: start;
+}
+.post-time::after{
+    content: "...";
+    position: relative;
+    font-size: 25px;
+    right: -140px;
+    top: -15px;
+    color: white;
+}
+.card-features{
+    display: flex;
+    gap: 25px;
+    margin: 15px 10px;
+}
+
+
+/* sidebar2 styles */
+
+
+.sidebar2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px;
+    position: sticky;
+    top: 65px;
+    justify-content: start;
+    background-color: #FFF;
+    width: 350px;
+    height: 130vh;
+    gap: 35px 10px;
+}
+.premium{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.premium>h2{
+    font-weight: bold;
+}
+.premium>p{
+    font-weight: bold;
+}
+.sub-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.sub-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 45px;
+}
+.sub-btn>a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.trending-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+}
+.trending::after{
+    content: '...';
+    position: relative;
+    right: -250px;
+    top: -80px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.show-more{
+    color: #1D9BF0;
+    font-size: 18px;
+}
+.follow-icons{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(222, 222, 222, 0.8);
+    border-radius: 50%;
+    padding: 10px;
+}
+.follow-section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0px;
+
+}
+.follow-section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px ;
+}
+.user-btn-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-btn{
+    display: flex;
+    padding: 8px 18px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+}
+.pages-section{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px 10px;
+    margin-bottom: 40px;
+}
+.pages-section>a{
+    font-size: 12px;
+}
+.pages-section>a:hover{
+    text-decoration: underline;
 }
