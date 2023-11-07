@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <header>
+        <h1>To Do List manager</h1>
+    </header>
+
+    <section id="task-list">
+        <h2>Task List</h2>
+        <ul id="tasks"></ul>
+    </section>
+
+    <section id="add-task">
+        <h2>Add a Task</h2>
+        <form id="task-form">
+            <input type="text" id="title" placeholder="Task Title" required>
+            <textarea id="description" placeholder="Task Description" required></textarea>
+            <select id="status">
+                <option value="not-started" id="sel-notStarted">Not Started</option>
+                <option value="in-progress" id="sel-progress">In Progress</option>
+                <option value="completed" id="sel-completed">Completed</option>
+            </select>
+            <button type="submit">Add Task</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
