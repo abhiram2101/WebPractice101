@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card {
+    width: 80%;
+    max-width: 700px;
+}
+.card-body {
+    padding: 40px;
+}
+.btn{
+    color: white;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 0px 15px black;
+    cursor: pointer;
+}
+h1{
+    text-transform: capitalize;
+
+}
