@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <script src="https://kit.fontawesome.com/e65fb1013f.js" crossorigin="anonymous"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body {
+            background-color: white;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 35px;
+        }
+        .t1{
+            font-size: 2.25rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: black;
+        }
+        span{
+            margin-left: 10px;
+            color: blueviolet;
+        }
+        .walt_img{
+            width: 550px;
+        }
+        .home-2{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 15px 25px;
+        }
+        .section_page{
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            text-align: start;
+        }
+        .section_page > a:nth-child(1){
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            color: blueviolet;
+            margin-bottom: 15px ;
+            padding: 5px;      
+        }
+        .section_page > a:nth-child(2){
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            color: blueviolet;
+            margin-bottom: 15px ;
+            padding: 5px;
+        }
+        .section_page > a:nth-child(3){
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            color: blueviolet;
+            margin-bottom: 15px ;
+            padding: 5px;
+        }
+        .section_page > a:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: blueviolet;
+        }
+        .section_page > a:hover::after{
+            animation: lineAnim linear .3s;
+            width: 100%;
+        }
+        @keyframes lineAnim {
+            
+            0% {
+                left: 0%;
+                width: 0%;
+            }
+            50% {
+                left: 50%;
+                width: 50%;
+            }
+            100% {
+                left: 100%;
+                width: 100%;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header_div">
+            <a href="index.html" class="t1">Bounty Bank <span><i class="fa-solid fa-piggy-bank"></i></span></a>
+        </div>
+        
+    </header>
+
+    <section  class="home-2">
+
+        <div class="section_page">
+            <a href="/admin">Admin</a>
+            <a href="/customer">Customer</a>
+            <a href="/index">Home</a>
+        </div>
+
+        <div class="section_img">
+            <img src="/bank_ui/wallet2.jpg" alt="wallet image" class="walt_img">
+
+        </div>
+
+    </section>
+
+
+
+
+</body>
+</html>
