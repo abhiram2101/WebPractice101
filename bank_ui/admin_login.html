@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin login</title>
+    <script src="https://kit.fontawesome.com/e65fb1013f.js" crossorigin="anonymous"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body {
+            background-color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 35px;
+        }
+
+        .t1 {
+            font-size: 2.25rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        span {
+            margin-left: 10px;
+            color: blueviolet;
+        }
+        .admin-section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px;
+            gap: 20px 0px;
+        }
+        .main_form{
+            display: flex;
+        }
+        .login_form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 350px;
+            border: 2px solid blueviolet;
+            padding: 25px;
+            border-radius: 8px;
+            
+        }
+        
+        label{
+            font-size: 18px;
+            font-weight: 600px;
+        }
+        .login_form>h3{
+            display: flex;
+            align-self: center;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .login_form>input:after{
+            content: "";
+            
+            border-radius: 5px;
+            border: 1px solid blueviolet;
+        }
+        .login_form>input{
+            background-color: rgb(217, 221, 225);
+            border: none;
+            height: 25px;
+            padding: 10px;
+            font-size: 18px;
+            outline: none;
+            border-radius: 7px;
+        }
+        .login_form>input::after{
+            content: "";
+            display: block;
+            width: 100%;
+            background-color: blueviolet;
+            height: 5px;
+            z-index: 1000;
+        }   
+        
+        .submit_btn{
+            margin: 10px 80px ;
+            padding: 15px;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+            border: none;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .submit_btn:hover{
+            background-color: rgb(144, 66, 217);
+        }
+        .backbtn{
+            display: flex;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            color: blueviolet;
+            margin-bottom: 15px ;
+            padding: 5px;
+        }
+        .backbtn:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: blueviolet;
+        }
+        .backbtn:hover::after{
+            animation: lineAnim linear .3s;
+            width: 100%;
+        }
+        @keyframes lineAnim {
+            
+            0% {
+                left: 0%;
+                width: 0%;
+            }
+            50% {
+                left: 50%;
+                width: 50%;
+            }
+            100% {
+                left: 100%;
+                width: 100%;
+            }
+            
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="header_div">
+            <a href="index.html" class="t1">Bounty Bank <span><i class="fa-solid fa-piggy-bank"></i></span></a>
+        </div>
+    </header>
+    <div class="admin-section">
+        <div class="main_form">
+            <form action="/admin/login" method="post" class="login_form">
+                <h3> Admin Login </h3>
+                <label for="">User ID</label>
+                <input type="text" name="username" id="">
+                <label for="">Password</label>
+                <input type=password name="password">
+                <button name="submit" type="submit" class="submit_btn">Submit</button>
+            </form>
+        </div>
+        <div class="backbtn">
+            <a href="/homepage">Back</a>
+        </div>
+    </div>
+    
+        
+   
+</body>
+
+</html>
